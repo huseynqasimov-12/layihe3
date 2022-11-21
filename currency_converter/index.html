@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Converter</title>
+  <link rel="stylesheet" href="./src/reset.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+  <!-- <nav class="nav1 navbar navbar-expand-lg ">
+    <div class="navBarFlexContainer">
+      <img src="./img/logo.svg" alt="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+        <ul class="navBarUlTag navbar-nav me-auto mb-2 mb-lg-0 " >
+          <li class="nav-item ml-2 mr-2">
+            <a class="nav-link active" href="#">БАНК</a>
+          </li>
+          <li class="nav-item ml-2 mr-2">
+            <a class="nav-link" href="#">БИЗНЕС</a>
+          </li>
+          <li class="nav-item ml-2 mr-2">
+            <a class="nav-link" href="#">ИНВЕСТИЦИИ</a>
+          </li>
+          <li class="nav-item ml-2 mr-2">
+            <a class="nav-link" href="#">СТРАХОВАНИЕ</a>
+          </li>
+          <li class="nav-item ml-2 mr-2">
+            <a class="nav-link" href="#">МОБАЙЛ</a>
+          </li>
+          <li class="nav-item ml-2 mr-2">
+            <a class="nav-link" href="#">РАЗВЛЕЧЕНИЯ</a>
+          </li>
+        </ul>
+      </div>
+      <a class="navBarButton" href="#">ВОЙТИ</a>
+    </div>
+  </nav> -->
+  <!-- МОБАЙЛ СТРАХОВАНИЕ -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light con">
+    <div class="container-fluid container">
+      <img src="./img/logo.svg" alt="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item ml-2 mr-2">
+            <a class="nav-link active" href="#">БАНК</a>
+          </li>
+          <li class="nav-item ml-2 mr-2">
+            <a class="nav-link" href="#">БИЗНЕС</a>
+          </li>
+          <li class="nav-item ml-2 mr-2">
+            <a class="nav-link" href="#">ИНВЕСТИЦИИ</a>
+          </li>
+          <li class="nav-item ml-2 mr-2">
+            <a class="nav-link" href="#">СТРАХОВАНИЕ</a>
+          </li>
+          <li class="nav-item ml-2 mr-2">
+            <a class="nav-link" href="#">МОБАЙЛ</a>
+          </li>
+          <li class="nav-item ml-2 mr-2">
+            <a class="nav-link" href="#">РАЗВЛЕЧЕНИЯ</a>
+          </li>
+        </ul>
+      <a class="navBarButton" href="#">ВОЙТИ</a>
+      </div>
+    </div>
+  </nav>
+  <!-- <nav class="nav2">
+    <div class="navBarFlexContainerColumn">
+      <div class="nav2UpSection">
+        <img src="./img/logo.svg" alt="">
+        <a class="navBarButton" href="#">ВОЙТИ</a>
+      </div>
+
+      <div class="" id="navbarNav">
+        <ul class="navBar2UlTag">
+          <li class="nav-item ml-2 mr-2">
+            <a class="nav-link active" href="#">БАНК</a>
+          </li>
+          <li class="nav-item ml-2 mr-2">
+            <a class="nav-link" href="#">БИЗНЕС</a>
+          </li>
+          <li class="nav-item ml-2 mr-2">
+            <a class="nav-link" href="#">ИНВЕСТИЦИИ</a>
+          </li>
+          <li class="nav-item ml-2 mr-2">
+            <a class="nav-link" href="#>СТРАХОВАНИЕ</a>
+                    </li>
+                    <li class=" nav-item ml-2 mr-2">
+              <a class="nav-link" href="#">МОБАЙЛ</a>
+          </li>
+          <li class="nav-item ml-2 mr-2">
+            <a class="nav-link" href="#">ПУТЕШЕСТВИЯ</a>
+          </li>
+          <li class="nav-item ml-2 mr-2">
+            <a class="nav-link" href="#">РАЗВЛЕЧЕНИЯ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> -->
+
+
+  <div class="convertTitle">Конвертер валют онлайн</div>
+  <form action="" class="form">
+  <div class="convertContainersBig">
+
+  </div>
+  <div class="container convertContainers">
+    <div class="currencySections">
+      <div class="boxTitle">У меня есть</div>
+      <div class="inputsContainer" data-toggle="buttons">
+        <input  value="USD" type="radio" name="baseoptions" id="usd-from" checked/>
+        <label for="usd-from" class="btn inputsLabel">
+          USD
+        </label>
+        <input  value="RUB" type="radio" name="baseoptions" id="rub-from" />
+        <label for="rub-from" class="btn inputsLabel">
+          RUB
+        </label>
+        <input  value="EUR" type="radio" name="baseoptions" id="eur-from" />
+        <label for="eur-from" class="btn inputsLabel">
+          EUR
+        </label>
+        <input  value="GBP" type="radio" name="baseoptions" id="gbp-from" />
+        <label for="gbp-from" class="btn inputsLabel">
+          GBP
+        </label>
+      </div>
+      <div class="costContainer">
+        <input value="1" type="text" class="mynumber" /> <br />
+        <div class="baseText"></div>
+      </div>
+    </div>
+
+    <div class="currencySections">
+      <div class="boxTitle">Хочу приобрестиь</div>
+      <div class="inputsContainer" data-toggle="buttons">
+        <input value="USD" type="radio" name="symbolsoptions" id="usd-tu" />
+        <label for="usd-tu" class="btn inputsLabel">
+          USD
+        </label>
+        <input value="RUB" type="radio" name="symbolsoptions" id="rub-tu" checked/>
+        <label for="rub-tu" class="btn inputsLabel">
+          RUB
+        </label>
+        <input value="EUR" type="radio" name="symbolsoptions" id="eur-tu" />
+        <label for="eur-tu" class="btn inputsLabel">
+          EUR
+        </label>
+        <input value="GBP" type="radio" name="symbolsoptions" id="gbp-tu" />
+        <label for="gbp-tu" class="btn inputsLabel">
+          GBP
+        </label>
+      </div>
+      <div class="costContainer">
+        <input name="input2" class="result input2" />
+        <div class="symbolsText"></div>
+      </div>
+  </div>
+</div>
+  </form>
+
+  <!-- </div> -->
+  <div class="alert alert-info col-sm-6 col-9 m-auto" role="alert">
+    Alert
+</div>
+
+
+  </div>
+  <script src="https://unpkg.com/imask"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="./src/script.js"></script>
+</body>
+
+</html>
